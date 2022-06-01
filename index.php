@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Оформление заказа</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/source/css/style.css">
 </head>
 <body>
@@ -13,37 +14,28 @@
   <div class="row">
     <div class="col-75">
       <div class="container">
-        <form action="../action_page.php">
+        <form action="check.php" method="post">
         
           <div class="row">
             <div class="col-50">
               <h3>Платежный адрес</h3>
-              <label for="fname"><i class="fa fa-user"></i> ФИО</label>
-              <input type="text" id="fname" name="firstname" placeholder="Щипунов Андрей Леонидович">
+              <label for="fname"><i class="fa fa-phone"></i> Телефон</label>
+              <input type="text" id="phone" name="phone" placeholder="88005001111" class="form-control">
               <label for="email"><i class="fa fa-envelope"></i> Email</label>
-              <input type="text" id="email" name="email" placeholder="and-shhipunov@mail.ru">
+              <input type="email" id="email" name="email" placeholder="and-shhipunov@mail.ru" class="form-control">
               <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
-              <input type="text" id="adr" name="address" placeholder="Томская 44-39">
-              <label for="city"><i class="fa fa-institution"></i> Город</label>
-              <input type="text" id="city" name="city" placeholder="Пермь">
-
-              <div class="row">
-                <div class="col-50">
-                  <label for="state">Страна</label>
-                  <input type="text" id="state" name="state" placeholder="Россия">
-                </div>
-                <div class="col-50">
-                  <label for="zip">Индекс</label>
-                  <input type="text" id="zip" name="zip" placeholder="10001">
-                </div>
-              </div>
+              <!-- <input type="text" id="adr" name="address" placeholder="Томская 44-39"> -->
+              <select id="address" name="address" size="1">
+                <option value="1">Пл. Карла Маркса, 3, Новосибирск</option>
+                <option value="2">Ул. Коммунистическая, 7, Новосибирск</option>
+                <option value="3">Ул. Богдана Хмельницкого, 38, Новосибирск</option>
+                <option value="4">Ул. Кропоткина, 130/7, Новосибирск</option>
+                <option value="5">Ул. Нарымская, 37, Новосибирск</option>
+              </select>
             </div>
             
           </div>
-          <label>
-            <input type="checkbox" checked="checked" name="sameadr"> Адрес доставки совпадает с платежным адресом
-          </label>
-          <input type="submit" value="Продолжить оформление заказа" class="btn">
+          <input type="submit" value="Продолжить оформление заказа" class="btn btn-success">
         </form>
       </div>
     </div>
