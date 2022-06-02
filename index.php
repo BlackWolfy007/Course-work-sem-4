@@ -20,7 +20,7 @@
             <div class="col-50">
               <h3>Платежный адрес</h3>
               <label for="fname"><i class="fa fa-phone"></i> Телефон</label>
-              <input type="text" id="phone" name="phone" placeholder="88005001111" class="form-control">
+              <input type="tel" id="phone" name="phone" placeholder="8-800-500-11-11" class="form-control" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
               <label for="email"><i class="fa fa-envelope"></i> Email</label>
               <input type="email" id="email" name="email" placeholder="and-shhipunov@mail.ru" class="form-control">
               <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
