@@ -24,7 +24,6 @@
               <label for="email"><i class="fa fa-envelope"></i> Email</label>
               <input type="email" id="email" name="email" placeholder="and-shhipunov@mail.ru" class="form-control">
               <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
-              <!-- <input type="text" id="adr" name="address" placeholder="Томская 44-39"> -->
               <select id="address" name="address" size="1">
                 <option value="1">Пл. Карла Маркса, 3, Новосибирск</option>
                 <option value="2">Ул. Коммунистическая, 7, Новосибирск</option>
