@@ -51,5 +51,6 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("status").innerHTML = "Получено";
     document.getElementById("timer").style.visibility = "hidden";
+    document.getElementById("infoText").style.visibility = "hidden";
   }
 }, 1000); 

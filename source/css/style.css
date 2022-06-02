@@ -165,7 +165,7 @@ span.price {
 
 .divTable{
     display:  table;
-    width:auto;
+    width: 100%;
     background-color:#eee;
     border:1px solid  #666666;
     border-spacing:5px;/*cellspacing:poor IE support for  this*/
@@ -181,13 +181,23 @@ span.price {
     float:left;/*fix for  buggy browsers*/
     text-align: center;
     display:table-column;
-    width:200px;
+    width:14.28%;
     background-color:#ccc;
+    
+}
+
+.info{
+    text-align: center;
+}
+
+.time{
+    text-align: center;
 }
 
 .map{
    
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 /* Адаптивный макет - когда экран меньше 800 пикселей в ширину, сделайте два столбца стеком друг на друга, а не рядом друг с другом (также измените направление-сделайте столбец "корзина" сверху) */

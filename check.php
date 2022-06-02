@@ -23,6 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/source/css/style.css">
     <script src="/source/js/timer.js" defer></script>
+    <!--<script src="/source/js/canvas.js" async></script>-->
     <meta charset="UTF-8">
     <title>Статус заказа</title>
 </head>
@@ -48,9 +49,17 @@
         </div>
     
     </div>
-    <p id="timer">timer</p>
-    <div class="map">
-        <img src="/source/img/map.png">
+    <div class="info">
+        <p id="infoText">Расчетное время доставки заказа:</p>
+        <div class="time">
+            <p id="timer">timer</p>
+        </div>
     </div>
+    <div class="map">
+        <!--<img src="/source/img/map.png">-->
+        <!--<canvas id="map" width="579" height="647" style="background: url('./source/img/map.png')"></canvas>-->
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Adedb1ecef24f72136956c4ca7f4cfbdbada95b7e27df3a54d92fd936197591e4&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
+    </div>
+    
 </body>
 </html>
