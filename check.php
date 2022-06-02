@@ -5,6 +5,7 @@
     $orderId = mt_rand(100, 1000);
     $transportId = mt_rand(10000, 80000);
     $address = $_POST['address'];
+    $status = array();
     $error = '';
 
     if(trim($email)=='')
@@ -76,7 +77,7 @@
     
     </div>
     <div class="map">
-        
+        <img src="/source/img/map.png">
     </div>
 </body>
 </html>

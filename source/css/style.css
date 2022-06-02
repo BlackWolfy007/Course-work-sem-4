@@ -179,9 +179,15 @@ span.price {
 
 .divCell{
     float:left;/*fix for  buggy browsers*/
+    text-align: center;
     display:table-column;
     width:200px;
     background-color:#ccc;
+}
+
+.map{
+   
+    justify-content: center;
 }
 
 /* Адаптивный макет - когда экран меньше 800 пикселей в ширину, сделайте два столбца стеком друг на друга, а не рядом друг с другом (также измените направление-сделайте столбец "корзина" сверху) */
