@@ -5,7 +5,7 @@
     $orderId = mt_rand(100, 1000);
     $transportId = mt_rand(10000, 80000);
     $address = $_POST['address'];
-    $status = array();
+    $status = array("Доставка на склад","Доставка на почтамат","Ожидает в пункте выдачи","Получено");
     $error = '';
 
     if(trim($email)=='')
