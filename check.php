@@ -9,7 +9,7 @@
 
     if(trim($email)=='')
         $error = 'Incorrect email';
-    else if (strlen(trim($phone))<6 && strlen(trim($phone))>=20)
+    else if ((trim($phone)=='')||(strlen(trim($phone))<6 && strlen(trim($phone))>=20))
         $error = 'Incorrect phone';
 
     if ($error != ''){
