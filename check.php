@@ -32,7 +32,7 @@
             <div class="divCell" id="0"><p>Телефон</p></div>
             <div class="divCell" id="1"><p>Email</p></div>
             <div class="divCell" id="2"><p>ID Заказа</p></div>
-            <div class="divCell" id="3"><p>Сумма</p></div>
+            <div class="divCell" id="3"><p>Сумма, ₽</p></div>
             <div class="divCell" id="4"><p>ID Транспорта</p></div>
             <div class="divCell" id="5"><p>ID Почтомата</p></div>
             <div class="divCell" id="6"><p>Статус заказа</p></div>

@@ -40,7 +40,7 @@
     </div>
     <div class="col-25">
       <div class="container">
-        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+        <h4>Корзина <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
         <p><a href="#">Товар 1</a> <span class="price">₽150</span></p>
         <p><a href="#">Товар 2</a> <span class="price">₽50</span></p>
         <p><a href="#">Товар 3</a> <span class="price">₽80</span></p>
